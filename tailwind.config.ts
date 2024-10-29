@@ -17,7 +17,24 @@ const config: Config = {
         primary_text: "var(--ig-primary-text)",
         secondary_text: "var(--ig-secondary-text)",
         stroke: "var(--ig-stroke)",
-      },
+        focus_stroke: "var(--ig-focus-stroke)",
+        primary_button: "var(--ig-primary-button)",
+        secondary_button: "var(--ig-seçcondary-button)",
+      }
+    },
+    fontFamily: {
+      sans: [
+        '-apple-system', 
+        'BlinkMacSystemFont', 
+        '"Segoe UI"', 
+        'Roboto', 
+        '"Helvetica Neue"', 
+        'Arial', 
+        'sans-serif',
+        '"Apple Color Emoji"', 
+        '"Segoe UI Emoji"', 
+        '"Segoe UI Symbol"'
+      ],
     },
   },
   plugins: [],

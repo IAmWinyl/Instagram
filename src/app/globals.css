@@ -11,6 +11,9 @@
   --ig-primary-text: rgb(0,0,0);
   --ig-secondary-text: rgb(115,115,115);
   --ig-stroke: rgb(219,219,219);
+  --ig-focus-stroke: rgb(168,168,168);
+  --ig-primary-button: rgb(0,149,246);
+  --ig-secondary-button: rgb(38,38,38);
 }
 
 @media (prefers-color-scheme: dark) {
