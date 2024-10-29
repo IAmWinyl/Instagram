@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary_background: "var(--ig-primary-background)",
+        secondary_background: "var(--ig-secondary-background)",
+        elevated_separator: "var(--ig-elevated-separator)",
+        primary_text: "var(--ig-primary-text)",
+        secondary_text: "var(--ig-secondary-text)",
+        stroke: "var(--ig-stroke)",
       },
     },
   },
