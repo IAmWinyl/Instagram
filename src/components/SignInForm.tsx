@@ -9,6 +9,8 @@ const SignInForm = () => {
 
   const handleSubmit = () => {};
 
+  const handleOAuthLogin = () => {};
+
   return (
     <form
       method="post"
@@ -45,14 +47,33 @@ const SignInForm = () => {
           </button>
         </div>
 
-        <div className="flex flex-row mt-[14px] mx-10 mb-22px">
+        <div className="flex flex-row mt-[14px] mx-10 mb-[22px]">
           <div className="grow relative bg-elevated_separator h-[1px] top-[0.45em]"></div>
           <div className="font-sans font-semibold px-[18px] text-secondary_text text-[13px] leading-[1.15]">
             OR
           </div>
           <div className="grow relative bg-elevated_separator h-[1px] top-[0.45em]"></div>
         </div>
+
+        <div className="flex flex-row justify-center mx-10 my-2">
+          <button
+            type="button"
+            className="font-sans text-sm text-[#385185] font-semibold"
+            onClick={handleOAuthLogin}
+          >
+            <span className="inline-block mr-2 relative top-[3px] bg-[url(https://static.cdninstagram.com/rsrc.php/v3/yV/r/6JqvJ6H_bFT.png)] w-4 h-4 bg-[length:440px_411px] bg-[-347px_-329px]"></span>
+            <span>Log in with Facebook</span>
+          </button>
+        </div>
       </div>
+
+      <a
+        href="/accounts/password/reset/"
+        role="link"
+        className="mt-3 no-underline touch-manipulation text-center"
+      >
+        <span className="leading-4 text-link text-xs">Forgot password?</span>
+      </a>
     </form>
   );
 };

@@ -22,6 +22,7 @@ const config: Config = {
         primary_button: "var(--ig-primary-button)",
         secondary_button: "var(--ig-secondary-button)",
         primary_button_hover: "var(--ig-primary-button-hover)",
+        link: "var(--ig-link)",
       }
     },
     fontFamily: {

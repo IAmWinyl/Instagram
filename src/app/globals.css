@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    line-height: 18px;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -16,6 +22,7 @@
   --ig-primary-button: rgb(0,149,246);
   --ig-secondary-button: rgb(38,38,38);
   --ig-primary-button-hover: rgb(24,119,242);
+  --ig-link: rgb(0,55,107);
 }
 
 @media (prefers-color-scheme: dark) {
