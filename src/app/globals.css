@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --web-always-white: rgb(255,255,255);
   --ig-primary-background: rgb(255,255,255);
   --ig-secondary-background: rgb(250,250,250);
   --ig-elevated-separator: rgb(219,219,219);
@@ -14,6 +15,7 @@
   --ig-focus-stroke: rgb(168,168,168);
   --ig-primary-button: rgb(0,149,246);
   --ig-secondary-button: rgb(38,38,38);
+  --ig-primary-button-hover: rgb(24,119,242);
 }
 
 @media (prefers-color-scheme: dark) {

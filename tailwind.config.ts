@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        always_white: "var(--web-always-white)",
         primary_background: "var(--ig-primary-background)",
         secondary_background: "var(--ig-secondary-background)",
         elevated_separator: "var(--ig-elevated-separator)",
@@ -19,7 +20,8 @@ const config: Config = {
         stroke: "var(--ig-stroke)",
         focus_stroke: "var(--ig-focus-stroke)",
         primary_button: "var(--ig-primary-button)",
-        secondary_button: "var(--ig-seçcondary-button)",
+        secondary_button: "var(--ig-secondary-button)",
+        primary_button_hover: "var(--ig-primary-button-hover)",
       }
     },
     fontFamily: {
@@ -28,12 +30,9 @@ const config: Config = {
         'BlinkMacSystemFont', 
         '"Segoe UI"', 
         'Roboto', 
-        '"Helvetica Neue"', 
+        'Helvetica', 
         'Arial', 
         'sans-serif',
-        '"Apple Color Emoji"', 
-        '"Segoe UI Emoji"', 
-        '"Segoe UI Symbol"'
       ],
     },
   },

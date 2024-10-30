@@ -35,12 +35,12 @@ const InputField = ({ name, field, setField, label }: InputFieldProps) => {
   };
 
   return (
-    <div className="mx-[46px] mb-[6px]">
-      <div className="flex flex-row bg-secondary_background border-[1px] border-stroke rounded-[3px] text-primary_text text-sm items-center w-full focus-within:border-[1px] focus-within:border-focus_stroke">
+    <div className="mx-[40px] mb-[6px]">
+      <div className="flex flex-row bg-secondary_background box-border border-[1px] border-stroke rounded-[3px] text-primary_text text-sm items-center w-full focus-within:border-[1px] focus-within:border-focus_stroke">
         <label className="flex h-[36px] grow relative">
           <span
             className={
-              "text-secondary_text text-xs absolute left-2 truncate pointer-events-none leading-9 transform origin-top-left ease-out duration-100" +
+              "font-sans text-secondary_text text-xs absolute left-2 truncate pointer-events-none leading-9 transform origin-top-left ease-out duration-100" +
               " " +
               (isValued ? "transform scale-[0.8] translate-y-[-5px]" : "")
             }
