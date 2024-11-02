@@ -72,7 +72,7 @@ const SignInForm = () => {
         role="link"
         className="mt-3 no-underline touch-manipulation text-center"
       >
-        <span className="leading-4 text-link text-xs">Forgot password?</span>
+        <span className="leading-4 text-link text-sm">Forgot password?</span>
       </a>
     </form>
   );

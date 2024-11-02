@@ -23,6 +23,7 @@
   --ig-secondary-button: rgb(38,38,38);
   --ig-primary-button-hover: rgb(24,119,242);
   --ig-link: rgb(0,55,107);
+  --polaris-site-width-wide: 935px;
 }
 
 @media (prefers-color-scheme: dark) {
