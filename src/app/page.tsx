@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col bg-primary_background border-[1px] border-elevated_separator items-center box-border py-[10px] mb-[10px]">
           <p className="text-sm m-[15px]">
-            Don't have an account?&nbsp;
+            Don&apos;t have an account?&nbsp;
             <a
               href="/accounts/emailsignup/"
               role="link"
@@ -26,6 +26,38 @@ export default function Home() {
               </span>
             </a>
           </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="mx-5 my-[10px]">
+            <span className="text-sm leading-[18px] block font-sans before:block before:mt-[-3px] before:h-0 after:block after:mb-[-4px] after:h-0">
+              Get the app.
+            </span>
+          </div>
+          <div className="flex flex-row items-center my-[10px]">
+            <a
+              href="https://apps.apple.com/app/instagram/id389801252?ct=igweb.unifiedHome.badge&mt=8&pt=428156&vt=lo"
+              target="_blank"
+              aria-label="Download on the App Store"
+              className="mr-2"
+            >
+              <img
+                src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Yfc020c87j0.png"
+                alt="Download on the App Store"
+                className="h-[40px]"
+              />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DE46822FE-BB37-48F6-9B2E-8F2E049FF9F8%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge"
+              target="_blank"
+              aria-label="Get it on Google Play"
+            >
+              <img
+                src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+                alt="Get it on Google Play"
+                className="h-[40px]"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
