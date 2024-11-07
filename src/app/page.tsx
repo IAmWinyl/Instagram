@@ -1,3 +1,6 @@
+"use client";
+
+import ImageCarousel from "@/components/ImageCarousel";
 import SignInForm from "@/components/SignInForm";
 
 export default function Home() {
@@ -7,7 +10,11 @@ export default function Home() {
       role="main"
     >
       <article className="flex flex-row grow shrink-0 max-w-[--polaris-site-width-wide] w-full mt-[32px] justify-center mx-auto">
-        <div className="h-[581.15px] mb-3 bg-[length:468.32px_634.15px] bg-[-46px_0px] basis-[380.32px] mr-8 self-center bg-[url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW)]"></div>
+        <div className="pt-[27px] h-[581.15px] mb-3 bg-[length:468.32px_634.15px] bg-[-46px_0px] basis-[380.32px] mr-8 self-center bg-[url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW)]">
+          <div className="relative h-[554.15px] w-[250px] ml-[112px]">
+            <ImageCarousel />
+          </div>
+        </div>
         <div className="flex flex-col grow shrink-0 justify-center mt-[12px] max-w-[350px]">
           <div className="flex flex-col bg-primary_background border-[1px] border-elevated_separator items-center box-border mb-[10px] py-[10px] relative text-primary_text">
             <button
