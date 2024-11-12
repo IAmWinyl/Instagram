@@ -1,0 +1,65 @@
+export interface Language {
+  id: string;  
+  nativeName: string; 
+}
+
+export const languages: Language[] = [
+  { id: "af", nativeName: "Afrikaans" },
+  { id: "ar", nativeName: "العربية" },
+  { id: "cs", nativeName: "Čeština" },
+  { id: "da", nativeName: "Dansk" },
+  { id: "de", nativeName: "Deutsch" },
+  { id: "el", nativeName: "Ελληνικά" },
+  { id: "en", nativeName: "English" },
+  { id: "en-gb", nativeName: "English (UK)" },
+  { id: "es", nativeName: "Español (España)" },
+  { id: "es-la", nativeName: "Español" },
+  { id: "fa", nativeName: "فارسی" },
+  { id: "fi", nativeName: "Suomi" },
+  { id: "fr", nativeName: "Français" },
+  { id: "he", nativeName: "עברית" },
+  { id: "id", nativeName: "Bahasa Indonesia" },
+  { id: "it", nativeName: "Italiano" },
+  { id: "ja", nativeName: "日本語" },
+  { id: "ko", nativeName: "한국어" },
+  { id: "ms", nativeName: "Bahasa Melayu" },
+  { id: "nb", nativeName: "Norsk" },
+  { id: "nl", nativeName: "Nederlands" },
+  { id: "pl", nativeName: "Polski" },
+  { id: "pt-br", nativeName: "Português (Brasil)" },
+  { id: "pt", nativeName: "Português (Portugal)" },
+  { id: "ru", nativeName: "Русский" },
+  { id: "sv", nativeName: "Svenska" },
+  { id: "th", nativeName: "ภาษาไทย" },
+  { id: "tl", nativeName: "Filipino" },
+  { id: "tr", nativeName: "Türkçe" },
+  { id: "zh-cn", nativeName: "中文(简体)" },
+  { id: "zh-tw", nativeName: "中文(台灣)" },
+  { id: "bn", nativeName: "বাংলা" },
+  { id: "gu", nativeName: "ગુજરાતી" },
+  { id: "hi", nativeName: "हिन्दी" },
+  { id: "hr", nativeName: "Hrvatski" },
+  { id: "hu", nativeName: "Magyar" },
+  { id: "kn", nativeName: "ಕನ್ನಡ" },
+  { id: "ml", nativeName: "മലയാളം" },
+  { id: "mr", nativeName: "मराठी" },
+  { id: "ne", nativeName: "नेपाली" },
+  { id: "pa", nativeName: "ਪੰਜਾਬੀ" },
+  { id: "si", nativeName: "සිංහල" },
+  { id: "sk", nativeName: "Slovenčina" },
+  { id: "ta", nativeName: "தமிழ்" },
+  { id: "te", nativeName: "తెలుగు" },
+  { id: "ur", nativeName: "اردو" },
+  { id: "vi", nativeName: "Tiếng Việt" },
+  { id: "zh-hk", nativeName: "中文(香港)" },
+  { id: "bg", nativeName: "Български" },
+  { id: "fr-ca", nativeName: "Français (Canada)" },
+  { id: "ro", nativeName: "Română" },
+  { id: "sr", nativeName: "Српски" },
+  { id: "uk", nativeName: "Українська" },
+];
+
+export const languageMap: Record<string, Language> = languages.reduce((acc, lang) => {
+  acc[lang.id] = lang;
+  return acc;
+}, {} as Record<string, Language>);

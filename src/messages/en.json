@@ -1,0 +1,11 @@
+{
+    "Home": {
+      "needAccount": "Don't have an account?"
+    },
+    "Footer": {
+      "languageName": "English",
+      "links": {
+        "about": "About"
+      }
+    }
+}

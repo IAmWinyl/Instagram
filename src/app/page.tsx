@@ -1,8 +1,11 @@
 import Footer from "@/components/Footer";
 import ImageCarousel from "@/components/ImageCarousel";
 import SignInForm from "@/components/SignInForm";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("Home");
+
   return (
     <>
       <main
@@ -27,7 +30,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-primary_background border-[1px] border-elevated_separator items-center box-border py-[6px] mb-[10px]">
               <p className="text-sm m-[15px] leading-[18px] font-sans">
-                Don&apos;t have an account?&nbsp;
+                {t("needAccount")}&nbsp;
                 <a
                   href="/accounts/emailsignup/"
                   role="link"
