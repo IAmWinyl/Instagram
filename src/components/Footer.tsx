@@ -117,8 +117,6 @@ const Footer = () => {
   // TODO: Temporarily setting language here. Replace after internalization.
   const currLang = "en";
 
-  const changeLanguage = () => {};
-
   return (
     <footer
       role="contentinfo"

@@ -15,7 +15,7 @@ const ImageCarousel = () => {
     const timeout = setTimeout(() => {
       setActiveImageId(2); // Skip to 2nd image after initial load
 
-      const interval = setInterval(() => {
+      setInterval(() => {
         setActiveImageId((prevId) => {
           if (prevId === images.length) return 1; // Loop back to the 1st after last
           return prevId + 1;
@@ -26,7 +26,7 @@ const ImageCarousel = () => {
     }, 3000);
 
     return () => clearTimeout(timeout); // Clean up on component unmount
-  }, []);
+  });
 
   const getTransitionStyle = (id: number) => {
     if (activeImageId === id) {
